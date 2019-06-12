@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2806CAB1229BA65000F8A7C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAB0229BA65000F8A7C6 /* AppDelegate.swift */; };
-		2806CAB3229BA65000F8A7C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAB2229BA65000F8A7C6 /* ViewController.swift */; };
 		2806CAB6229BA65000F8A7C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2806CAB4229BA65000F8A7C6 /* Main.storyboard */; };
 		2806CAB9229BA65000F8A7C6 /* WeightTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAB7229BA65000F8A7C6 /* WeightTracker.xcdatamodeld */; };
-		2806CABB229BA65400F8A7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2806CABA229BA65400F8A7C6 /* Assets.xcassets */; };
 		2806CABE229BA65400F8A7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2806CABC229BA65400F8A7C6 /* LaunchScreen.storyboard */; };
 		2806CAC9229BA65400F8A7C6 /* WeightTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAC8229BA65400F8A7C6 /* WeightTrackerTests.swift */; };
 		2806CAD4229BA65400F8A7C6 /* WeightTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAD3229BA65400F8A7C6 /* WeightTrackerUITests.swift */; };
+		2806CAE5229BA7AF00F8A7C6 /* WeightListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAE3229BA7AF00F8A7C6 /* WeightListViewController.swift */; };
+		2806CAE9229BA95D00F8A7C6 /* WeightListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAE8229BA95D00F8A7C6 /* WeightListViewModel.swift */; };
+		2806CAF1229BB43300F8A7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2806CABA229BA65400F8A7C6 /* Assets.xcassets */; };
+		2806CAF4229BB6D000F8A7C6 /* WeightEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAF2229BB6D000F8A7C6 /* WeightEntry+CoreDataClass.swift */; };
+		2806CAF5229BB6D000F8A7C6 /* WeightEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAF3229BB6D000F8A7C6 /* WeightEntry+CoreDataProperties.swift */; };
+		2806CAF8229C748D00F8A7C6 /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAF7229C748D00F8A7C6 /* PersistentManager.swift */; };
+		2806CAFF229CDCAE00F8A7C6 /* Date+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAFE229CDCAE00F8A7C6 /* Date+Random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		2806CAAD229BA65000F8A7C6 /* WeightTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2806CAB0229BA65000F8A7C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2806CAB2229BA65000F8A7C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2806CAB5229BA65000F8A7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2806CAB8229BA65000F8A7C6 /* WeightTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeightTracker.xcdatamodel; sourceTree = "<group>"; };
 		2806CABA229BA65400F8A7C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,13 @@
 		2806CACF229BA65400F8A7C6 /* WeightTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2806CAD3229BA65400F8A7C6 /* WeightTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackerUITests.swift; sourceTree = "<group>"; };
 		2806CAD5229BA65400F8A7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2806CAE3229BA7AF00F8A7C6 /* WeightListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightListViewController.swift; sourceTree = "<group>"; };
+		2806CAE8229BA95D00F8A7C6 /* WeightListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightListViewModel.swift; sourceTree = "<group>"; };
+		2806CAEF229BB3F500F8A7C6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2806CAF2229BB6D000F8A7C6 /* WeightEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeightEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2806CAF3229BB6D000F8A7C6 /* WeightEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeightEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2806CAF7229C748D00F8A7C6 /* PersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
+		2806CAFE229CDCAE00F8A7C6 /* Date+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Random.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,7 @@
 				2806CAC7229BA65400F8A7C6 /* WeightTrackerTests */,
 				2806CAD2229BA65400F8A7C6 /* WeightTrackerUITests */,
 				2806CAAE229BA65000F8A7C6 /* Products */,
+				2806CAEE229BB3F500F8A7C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +111,12 @@
 		2806CAAF229BA65000F8A7C6 /* WeightTracker */ = {
 			isa = PBXGroup;
 			children = (
+				2806CAFD229CDC7500F8A7C6 /* Extension */,
+				2806CAF6229C747A00F8A7C6 /* Persistent */,
+				2806CAE4229BA7AF00F8A7C6 /* Models */,
+				2806CAE2229BA7AF00F8A7C6 /* ViewControllers */,
+				2806CAE1229BA7AF00F8A7C6 /* ViewModels */,
 				2806CAB0229BA65000F8A7C6 /* AppDelegate.swift */,
-				2806CAB2229BA65000F8A7C6 /* ViewController.swift */,
 				2806CAB4229BA65000F8A7C6 /* Main.storyboard */,
 				2806CABA229BA65400F8A7C6 /* Assets.xcassets */,
 				2806CABC229BA65400F8A7C6 /* LaunchScreen.storyboard */,
@@ -126,6 +142,55 @@
 				2806CAD5229BA65400F8A7C6 /* Info.plist */,
 			);
 			path = WeightTrackerUITests;
+			sourceTree = "<group>";
+		};
+		2806CAE1229BA7AF00F8A7C6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2806CAE8229BA95D00F8A7C6 /* WeightListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2806CAE2229BA7AF00F8A7C6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2806CAE3229BA7AF00F8A7C6 /* WeightListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2806CAE4229BA7AF00F8A7C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2806CAF2229BB6D000F8A7C6 /* WeightEntry+CoreDataClass.swift */,
+				2806CAF3229BB6D000F8A7C6 /* WeightEntry+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2806CAEE229BB3F500F8A7C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2806CAEF229BB3F500F8A7C6 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2806CAF6229C747A00F8A7C6 /* Persistent */ = {
+			isa = PBXGroup;
+			children = (
+				2806CAF7229C748D00F8A7C6 /* PersistentManager.swift */,
+			);
+			path = Persistent;
+			sourceTree = "<group>";
+		};
+		2806CAFD229CDC7500F8A7C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2806CAFE229CDCAE00F8A7C6 /* Date+Random.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2806CAF1229BB43300F8A7C6 /* Assets.xcassets in Resources */,
 				2806CABE229BA65400F8A7C6 /* LaunchScreen.storyboard in Resources */,
-				2806CABB229BA65400F8A7C6 /* Assets.xcassets in Resources */,
 				2806CAB6229BA65000F8A7C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2806CAB3229BA65000F8A7C6 /* ViewController.swift in Sources */,
+				2806CAF4229BB6D000F8A7C6 /* WeightEntry+CoreDataClass.swift in Sources */,
+				2806CAF5229BB6D000F8A7C6 /* WeightEntry+CoreDataProperties.swift in Sources */,
 				2806CAB9229BA65000F8A7C6 /* WeightTracker.xcdatamodeld in Sources */,
+				2806CAE9229BA95D00F8A7C6 /* WeightListViewModel.swift in Sources */,
+				2806CAF8229C748D00F8A7C6 /* PersistentManager.swift in Sources */,
+				2806CAE5229BA7AF00F8A7C6 /* WeightListViewController.swift in Sources */,
+				2806CAFF229CDCAE00F8A7C6 /* Date+Random.swift in Sources */,
 				2806CAB1229BA65000F8A7C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
