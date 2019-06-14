@@ -13,7 +13,9 @@ import CoreData
 extension WeightEntry {
 
   @nonobjc public class func fetchRequest() -> NSFetchRequest<WeightEntry> {
-    return NSFetchRequest<WeightEntry>(entityName: "WeightEntry")
+    let request = NSFetchRequest<WeightEntry>(entityName: "WeightEntry")
+    request.sortDescriptors = [NSSortDescriptor(key: "date", ascending: true)]
+    return request
   }
 
   @NSManaged public var weightInLB: NSNumber
@@ -35,5 +37,14 @@ extension WeightEntry {
     formatter.timeStyle = .none
     formatter.locale = Locale(identifier: "en_US")
     return "\(formatter.string(from: date as Date))"
+  }
+  
+  static func randomWeightEntry(with context: NSManagedObjectContext) -> WeightEntry {
+    let randomWeight = Double.random(in: 50...200)
+    let randomDate = Date.randomWithinDaysBeforeToday(30)
+    return WeightEntry(
+      context: context,
+      weightInLB: randomWeight,
+      date: randomDate as NSDate)
   }
 }

@@ -14,7 +14,6 @@
 		2806CAC9229BA65400F8A7C6 /* WeightTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAC8229BA65400F8A7C6 /* WeightTrackerTests.swift */; };
 		2806CAD4229BA65400F8A7C6 /* WeightTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAD3229BA65400F8A7C6 /* WeightTrackerUITests.swift */; };
 		2806CAE5229BA7AF00F8A7C6 /* WeightListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAE3229BA7AF00F8A7C6 /* WeightListViewController.swift */; };
-		2806CAE9229BA95D00F8A7C6 /* WeightListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAE8229BA95D00F8A7C6 /* WeightListViewModel.swift */; };
 		2806CAF1229BB43300F8A7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2806CABA229BA65400F8A7C6 /* Assets.xcassets */; };
 		2806CAF4229BB6D000F8A7C6 /* WeightEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAF2229BB6D000F8A7C6 /* WeightEntry+CoreDataClass.swift */; };
 		2806CAF5229BB6D000F8A7C6 /* WeightEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806CAF3229BB6D000F8A7C6 /* WeightEntry+CoreDataProperties.swift */; };
@@ -54,7 +53,6 @@
 		2806CAD3229BA65400F8A7C6 /* WeightTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackerUITests.swift; sourceTree = "<group>"; };
 		2806CAD5229BA65400F8A7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2806CAE3229BA7AF00F8A7C6 /* WeightListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightListViewController.swift; sourceTree = "<group>"; };
-		2806CAE8229BA95D00F8A7C6 /* WeightListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightListViewModel.swift; sourceTree = "<group>"; };
 		2806CAEF229BB3F500F8A7C6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2806CAF2229BB6D000F8A7C6 /* WeightEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeightEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2806CAF3229BB6D000F8A7C6 /* WeightEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeightEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 		2806CAE1229BA7AF00F8A7C6 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2806CAE8229BA95D00F8A7C6 /* WeightListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -327,7 +324,6 @@
 				2806CAF4229BB6D000F8A7C6 /* WeightEntry+CoreDataClass.swift in Sources */,
 				2806CAF5229BB6D000F8A7C6 /* WeightEntry+CoreDataProperties.swift in Sources */,
 				2806CAB9229BA65000F8A7C6 /* WeightTracker.xcdatamodeld in Sources */,
-				2806CAE9229BA95D00F8A7C6 /* WeightListViewModel.swift in Sources */,
 				2806CAF8229C748D00F8A7C6 /* PersistentManager.swift in Sources */,
 				2806CAE5229BA7AF00F8A7C6 /* WeightListViewController.swift in Sources */,
 				2806CAFF229CDCAE00F8A7C6 /* Date+Random.swift in Sources */,
