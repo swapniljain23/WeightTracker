@@ -21,6 +21,7 @@ class WeightListViewController: UIViewController, NSFetchedResultsControllerDele
   override func viewDidLoad() {
     super.viewDidLoad()
     self.title = "Weight Tracker"
+    tableView.accessibilityLabel = "table_view"
     persistentManager = PersistentManager()
     fetchedResultsController = NSFetchedResultsController(
       fetchRequest: WeightEntry.fetchRequest(),
